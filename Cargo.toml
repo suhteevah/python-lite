@@ -1,0 +1,17 @@
+[package]
+name = "python-lite"
+version = "0.1.0"
+edition = "2021"
+description = "Minimal no_std Python interpreter for embedded and bare-metal Rust"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/suhteevah/python-lite"
+keywords = ["python", "interpreter", "no_std", "embedded", "bare-metal"]
+categories = ["no-std", "parser-implementations", "embedded"]
+readme = "README.md"
+rust-version = "1.70"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
